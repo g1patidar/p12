@@ -1,0 +1,1223 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.navbar {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    border-bottom: 1px solid black;
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+    padding-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li a img {
+    width: 115px;
+    margin-right: 130px;
+    margin-top: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+#mainpage {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+#mainpage a {
+    color: black;
+}
+
+.down a {
+    color: white;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+.down:hover {
+    cursor: pointer;
+    background-color: rgb(249, 245, 245);
+
+}
+
+.down a:hover {
+    color: rgb(6, 6, 93);
+}
+
+.down {
+    margin: 5px;
+    margin-top: 20px;
+    margin-left: 130px;
+    background-color: rgb(6, 6, 93);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.phone412 {
+    display: none;
+}
+
+@media(max-width:412px) {
+    .navbar {
+        display: none;
+        /* position: sticky;
+    z-index: 1000; */
+    }
+
+    .phone412 {
+        display: flex;
+    }
+
+    .logo412 {
+        width: 130px;
+        margin: 10px;
+    }
+
+    .menu {
+        font-size: 40px;
+        margin-left: 190px;
+        margin-top: 10px;
+    }
+
+    #input11:checked~.navbar {
+        display:block;
+        border-top: 1px solid black;
+        background-image: none;
+        background-color: white;
+        position: absolute;
+        top: 63px;
+        z-index: 1000;
+        padding-right: 240px;
+        margin-left: 0px;
+    }
+
+    .navbar li a img {
+        display: none;
+    }
+
+    .down {
+        display: none;
+    }
+}
+
+
+#landingpage {
+    overflow-x: hidden;
+    margin-bottom: 0px;
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+}
+
+.landingpage {
+    display: flex;
+    justify-content: center;
+}
+
+/* .landingpage div{
+    margin-top: 32px;
+} */
+.div1 {
+    margin-top: 100px;
+    margin-right: 2px;
+    color: rgb(8, 8, 88);
+}
+
+.div2 {
+    margin-top: 40px;
+}
+
+#headline {
+    margin: 10px;
+    font-size: 32px;
+}
+
+#name {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#developer {
+    margin: 10px;
+    font-size: 25px;
+}
+
+.div2 img {
+    width: 475px;
+    margin-left: 170px;
+    margin-top: 2px;
+}
+
+#sayhello {
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#mywork {
+    display: flex;
+}
+
+#mywork1 {
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+#sayhello:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:412px) {
+    .landingpage {
+        margin-bottom: 0px;
+    }
+
+    .div2 {
+        margin-top: 150px;
+
+    }
+
+    .div2 img {
+        width: 475px;
+        margin-left: 0px;
+        margin-top: 2px;
+        position: sticky;
+        z-index: 100;
+
+    }
+
+    .div1 {
+        margin-top: 40px;
+        margin-left: 240px;
+    }
+
+    #headline {
+        margin: 10px;
+        font-size: 25px;
+    }
+
+    #name {
+        margin: 10px;
+        font-size: 50px;
+    }
+
+    #developer {
+        margin: 10px;
+        font-size: 25px;
+    }
+
+    #sayhello {
+        font-size: 15px;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 7px;
+    }
+
+}
+
+/* ##### myclient start #### */
+.page2 {
+    background-color: rgba(13, 13, 85, 0.852);
+    margin: 0px;
+    padding-top: 0px;
+    overflow-x: hidden;
+}
+
+#myclienttext {
+    padding-top: 11px;
+}
+
+#myclient {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 19px;
+}
+
+#myclient div {
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.imgmyclient {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.imgmyclient a {
+    margin-bottom: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.7;
+}
+
+.imgmyclient a:hover {
+    opacity: 1;
+    transition: 2s opacity;
+}
+
+@media(max-width:412px) {
+    #myclient div {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .imgmyclient a {
+        margin-bottom: 30px;
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        opacity: 0.7;
+    }
+}
+
+/* ##### myclient end */
+
+
+.page3 {
+    overflow-x: hidden;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 70px;
+}
+
+.box {
+    width: 400px;
+    height: 150px;
+    border-right: 1px solid black;
+    margin: 40px;
+    padding-top: 0px;
+    padding-right: 20px;
+    /* font-size: 20px; */
+
+}
+
+.box p {
+    font-size: 19px;
+    opacity: 0.5;
+}
+
+.box span {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+    color: rgba(5, 5, 85, 0.764);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media(max-width:412px) {
+    .section3 {
+        display: block;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .box {
+        width: 380px;
+        height: 150px;
+        border-right: none;
+        margin: 20px;
+    }
+}
+
+.page4 {
+    display: flex;
+    overflow-x: hidden;
+}
+
+#skill {
+    margin: 0px;
+    padding: 0px;
+    width: 600px;
+    height: 450px;
+}
+
+#skill div {
+    font-size: 20px;
+    display: flex;
+    margin-top: 10px;
+    margin: 0px;
+    padding: 0px;
+
+    /* padding-right: 50px;    */
+}
+
+#skill div p {
+    padding: 0px;
+    margin: 0px;
+}
+
+#textmyskill {
+    margin-top: 10px;
+    color: rgb(227, 73, 46);
+}
+
+#skill h1 {
+    font-size: 40px;
+    color: rgb(5, 5, 85);
+    margin-left: 110px;
+    padding-right: 200px;
+}
+
+#skill p {
+    font-size: 19px;
+    color: rgb(189, 42, 16);
+    opacity: 0.7;
+    margin-right: 50px;
+    padding-right: 70px;
+    margin-left: 50px;
+    padding-left: 60px;
+}
+
+#skill div {
+    margin-top: 180px;
+    padding: 0px;
+    margin-left: 115px;
+    margin-right: 75px;
+}
+
+#skilllan {
+    height: 410px;
+    margin-top: 110px;
+    width: 600px;
+    background-image: url(https://itemsstore.net/html/trito/img/skills/1.jpg);
+}
+
+#skilllan div {
+    display: flex;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+
+#skilllan div P {
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media(max-width:412px) {
+    .page4 {
+        display: block;
+    }
+
+    #skill {
+        margin: 0px;
+        padding: 0px;
+        /* width: 400px; */
+        height: 300px;
+    }
+
+    #skilllan div {
+        display: flex;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    #skilllan div P {
+        margin-left: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #skilllan {
+        height: 300px;
+        margin-top: 50px;
+        width: 600px;
+
+    }
+
+    #skill h1 {
+        font-size: 35px;
+        color: rgb(5, 5, 85);
+        margin-left: 20px;
+        padding-right: 300px;
+    }
+
+    #skill div {
+        margin-top: 18px;
+        padding: 0px;
+        margin-left: 25px;
+        margin-right: 75px;
+    }
+
+    #skill p {
+        font-size: 19px;
+        color: rgb(189, 42, 16);
+        opacity: 0.7;
+        margin-right: 222px;
+        padding-right: 0px;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+}
+
+.popularity {
+    overflow-x: hidden;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.popularity div {
+    display: flex;
+    margin-left: 130px;
+}
+
+.popularity div h1 {
+    font-size: 65px;
+    text-decoration: 4px underline;
+    font-weight: 600;
+    color: rgb(7, 7, 49);
+}
+
+.popularity div span {
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 52px;
+    color: rgba(5, 5, 81, 0.95);
+    opacity: 0.7;
+}
+
+@media(max-width:412px) {
+    .popularity {
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .popularity div {
+        display: flex;
+        margin-left: 30px;
+    }
+
+    .popularity div h1 {
+        font-size: 55px;
+        text-decoration: 4px underline;
+        font-weight: 600;
+        color: rgb(7, 7, 49);
+    }
+
+    .popularity div span {
+        font-size: 22px;
+        margin-left: 25px;
+        margin-top: 42px;
+        color: rgba(5, 5, 81, 0.95);
+        opacity: 0.7;
+    }
+
+}
+
+
+.experience {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border: 2px solid black;
+    background-color: white;
+    width: 270px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    top: 630px;
+    left: 95px;
+    overflow-x: hidden;
+}
+
+.page5 {
+    display: grid;
+    grid-template-columns: 700px 700px;
+    background-image: url(https://itemsstore.net/html/trito/img/about/background.jpg);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    overflow-x: hidden;
+}
+
+.manimg img {
+    margin: 80px 0px 100px 120px;
+}
+
+.textman {
+    margin-top: 180px;
+    margin-right: 200px;
+}
+
+.abouttext {
+    display: flex;
+    color: rgb(227, 40, 40);
+
+}
+
+.abouthead {
+    margin-top: 10px;
+    font-size: 55px;
+    color: rgb(12, 12, 83);
+}
+
+.aboutpara {
+    margin-top: 30px;
+    color: rgb(12, 12, 83);
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.clickhire {
+    margin-top: 50px;
+}
+
+.hire {
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    background-color: rgb(12, 12, 83);
+    text-decoration: none;
+    color: white;
+}
+
+.hire:hover {
+    background-color: white;
+    color: rgb(12, 12, 83);
+}
+
+@media(max-width:412px) {
+    .page5 {
+        display: grid;
+        grid-template-columns: auto;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+
+    }
+
+    .manimg img {
+        margin: 80px 0px 20px 20px;
+        width: 380px;
+    }
+
+    .clickhire {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .textman {
+        margin: 40px 15px 0px 15px;
+
+    }
+
+    .experience {
+        width: 230px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        top: 500px;
+        left: 35px;
+    }
+}
+
+/* ###### page6 ##### */
+.page6 {
+    display: grid;
+    grid-template-columns: 700px 400px;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.man {
+    width: 700px;
+    height: 570px;
+}
+
+.man img {
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.mantext {
+    width: 800px;
+    height: 570px;
+}
+
+.mantext div {
+    margin-top: 160px;
+    margin-left: 50px;
+    color: rgb(8, 8, 65);
+}
+
+@media(max-width:412px) {
+    .page6 {
+        display: block;
+        margin-bottom: 0px;
+        height: 800px;
+    }
+
+    .mantext {
+        height: 700px;
+        margin-bottom: 50px;
+    }
+
+    .mantext div {
+        margin: 10px 0px 0px 10px;
+        color: rgb(8, 8, 65);
+    }
+
+    .man {
+        width: 200px;
+        height: 450px;
+    }
+
+    .man img {
+        margin-left: 5px;
+        margin-top: 100px;
+        width: 400px;
+    }
+}
+
+/* .dabba1 img{
+    margin: 8px;
+    width: 640px;
+    height: 350px;
+    border: 2px solid black;
+}
+.dabba2 img{
+    margin: 8px;
+    width: 630px;
+    height: 350px;
+    border: 2px solid black;
+} */
+.img2 {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.img2 div {
+    width: 49%;
+    border: 2px solid rgb(10, 10, 73);
+    overflow: hidden;
+}
+
+.img2 div img {
+    width: 100%;
+    height: 100%;
+}
+
+.img3 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.img3 div {
+    width: 32%;
+    border: 2px solid rgb(10, 10, 73);
+    overflow: hidden;
+}
+
+.img3 div img {
+    width: 100%;
+    height: 100%;
+}
+
+.img3 div img:hover {
+    scale: 1.3;
+    transition: scale 2s;
+}
+
+@media(max-width:412px) {
+    .img2 {
+        display: block;
+    }
+
+    .img3 {
+        display: block;
+    }
+
+    .img2 div {
+        width: 100%;
+        border: 2px solid rgb(10, 10, 73);
+    }
+
+    .img3 div {
+        width: 100%;
+        border: 2px solid rgb(10, 10, 73);
+    }
+}
+
+.portfolio {
+    overflow-x: hidden;
+}
+
+.FAQ {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 550px;
+}
+
+.FAQ span {
+    margin-top: 30px;
+    font-size: 20px;
+    color: orangered;
+}
+
+.FAQ P {
+    padding: 10px;
+    color: orangered;
+}
+
+.portfolio h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 45px;
+    color: rgb(8, 8, 75);
+}
+
+/* .linetext{
+    display: flex;
+    background-color:  rgba(8, 8, 75, 0.889);
+    margin: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 23px;
+
+} */
+/* .plus{
+    margin-left: 680px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(42, 211, 115);
+} */
+.d1 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(8, 8, 75, 0.889);
+    width: 800px;
+    color: white;
+    padding: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.plus {
+    font-size: 30px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(42, 211, 115);
+    color: white;
+    float: right;
+
+}
+
+.show1 {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: rgba(8, 8, 75, 0.889);
+    width: 800px;
+    color: white;
+    padding: 30px;
+    font-size: 15px;
+}
+
+#input5:checked~.show1 {
+    display: block;
+}
+
+#input6:checked~.show1 {
+    display: block;
+}
+
+#input7:checked~.show1 {
+    display: block;
+}
+
+#input8:checked~.show1 {
+    display: block;
+}
+
+#input9:checked~.show1 {
+    display: block;
+}
+
+@media(max-width:412px) {
+    .FAQ {
+        display: flex;
+        margin-top: 40px;
+        margin-left: 110px;
+    }
+
+    .portfolio h1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 35px;
+        color: rgb(8, 8, 75);
+    }
+
+    .d1 {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(8, 8, 75, 0.889);
+        width: 330px;
+        color: white;
+        padding: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .plus {
+        font-size: 20px;
+        padding: 3px 6px 3px 6px;
+        border-radius: 5px;
+        background-color: rgb(42, 211, 115);
+        color: white;
+        float: right;
+
+    }
+}
+
+.freelance {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+    margin-top: 100px;
+    overflow-x: hidden;
+}
+
+.freelance h1 {
+    margin-top: 110px;
+    font-size: 50px;
+    color: rgba(8, 8, 75, 0.889);
+}
+
+.let {
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: rgba(8, 8, 80, 0.855);
+    margin-left: 30px;
+    margin-right: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.let:hover {
+    color: white;
+    background-color: rgba(8, 8, 80, 0.855);
+}
+
+@media(max-width:412px) {
+    .freelance h1 {
+        margin-top: 110px;
+        font-size: 40px;
+    }
+
+    .freelance {
+        margin-top: 50px;
+    }
+}
+
+#news {
+    overflow-x: hidden;
+}
+
+.news {
+    margin: 100px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog span {
+    margin-top: 30px;
+    font-size: 20px;
+    color: orangered;
+}
+
+.blog P {
+    padding: 10px;
+    color: orangered;
+}
+
+.newsphoto {
+    margin: 100px;
+    display: flex;
+
+}
+
+.newsphoto div {
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(27, 9, 98);
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.184); */
+}
+
+.newsphoto div div {
+    border-radius: 130px;
+    border: 2px solid black;
+    overflow: hidden;
+    width: 330px;
+    height: 230px;
+}
+
+#blogpost {
+    font-size: 50px;
+    color: rgb(10, 18, 90);
+    margin-top: 0px;
+}
+
+.newsphoto div div a img {
+    width: 100%;
+    height: 100%;
+}
+
+.newsphoto div div a img:hover {
+    scale: 1.2;
+    transition: 0.2s scale;
+}
+
+.newsphoto div a {
+    text-decoration: none;
+}
+
+@media(max-width:412px) {
+    .news {
+        margin: 10px;
+    }
+
+    .newsphoto {
+        margin: 20px;
+        display: block;
+
+    }
+
+    #blogpost {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .blog {
+        margin-left: 20px;
+        margin-left: 20;
+        margin-top: 50px;
+    }
+}
+
+.contactpage {
+    display: flex;
+    margin-top: 30px;
+    background-image: url(https://itemsstore.net/html/trito/img/contact/background.jpg);
+    overflow-x: hidden;
+}
+
+.contact {
+    display: flex;
+    margin-top: 50px;
+}
+
+.contact span {
+    margin-top: 30px;
+    font-size: 20px;
+    color: orangered;
+}
+
+.contact P {
+    padding: 10px;
+    color: orangered;
+}
+
+.contactbox1 {
+    width: 650px;
+}
+
+.contactbox1 div {
+    margin-left: 100px;
+}
+
+.drop h1 {
+    margin-top: 0px;
+    font-size: 50px;
+    color: white;
+}
+
+.call p {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.487);
+
+}
+
+.call a {
+    font-size: 32px;
+    color: white;
+}
+
+.trito {
+    padding: 15px;
+    padding-left: 50px;
+    margin-top: 78px;
+    width: 410px;
+    height: 100px;
+    margin-left: 120px;
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+.contactbox2 {
+    width: 650px;
+}
+
+.contactform {
+    background-color: white;
+    height: 500px;
+    width: 520px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+input,
+textarea {
+    margin: 10px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 125px;
+    border: 2px solid rgba(0, 0, 0, 0.83);
+}
+
+.input {
+    margin-left: 50px;
+}
+
+input,
+textarea::placeholder {
+    font-size: 20px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    padding-right: 125px;
+    padding-left: 125px;
+    background-color: rgb(14, 164, 72);
+}
+
+@media(max-width:412px) {
+    .contactpage {
+        display: block;
+        margin-top: opx;
+        height: fit-content;
+    }
+
+    .contactbox1 div {
+        margin-left: 10px;
+    }
+
+    .drop h1 {
+        margin-top: 0px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .call p {
+        margin-top: 10px;
+        color: rgba(255, 255, 255, 0.487);
+    }
+
+    .call a {
+        font-size: 22px;
+        color: white;
+    }
+
+    .trito {
+        padding: 15px;
+        padding-left: 20px;
+        margin-top: 40px;
+        width: 350px;
+        height: 100px;
+        margin-left: 10px;
+        background-color: rgba(255, 255, 255, 0.09);
+    }
+
+    .contactbox2 {
+        width: 100px;
+        background-image: url(https://itemsstore.net/html/trito/img/contact/background.jpg);
+    }
+
+    .input {
+        margin-left: 10px;
+    }
+
+    .contactform {
+        background-color: white;
+        height: 500px;
+        width: 392px;
+        margin-top: 40px;
+        margin-left: 10px;
+        scroll-margin-right: 10px;
+        margin-bottom: 70px;
+    }
+
+    input,
+    textarea {
+        margin: 10px;
+        margin-left: 30px;
+        /* padding: 10px; */
+        padding-left: 20px;
+        padding-right: 50px;
+        border: 2px solid rgba(0, 0, 0, 0.83);
+    }
+
+    .submit {
+        display: flex;
+        justify-content: center;
+        padding-right: 80px;
+        padding-left: 80px;
+        background-color: rgb(14, 164, 72);
+    }
+}
